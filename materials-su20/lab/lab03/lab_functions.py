@@ -1,5 +1,5 @@
 from datascience import *
-
+Table.interactive_plots()
 def draw_scatter_chart(*args):
     if len(args) % 2 != 0:
         raise ValueError("This function requires an even number of arguments,"
