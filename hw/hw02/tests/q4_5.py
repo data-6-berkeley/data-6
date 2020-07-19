@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # It looks like there may be an issue with your rounding or subtraction.
-          >>> sum(price_difference) != 5442.0
+          >>> sum(price_difference) == 5442.0
           True
           """,
           'hidden': False,
