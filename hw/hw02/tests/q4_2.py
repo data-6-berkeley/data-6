@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> products
-          array([      720,     72720, 7272720,     -720])
+          >>> sum(products)
+          7345440
           """,
           'hidden': False,
           'locked': False
