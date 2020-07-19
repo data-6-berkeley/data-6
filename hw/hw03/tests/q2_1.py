@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> ca_presidential.column(1) == 14060856
+          >>> sum(ca_presidential.column(1)) == 14060856
           True
           """,
           'hidden': True,

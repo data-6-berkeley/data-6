@@ -12,6 +12,14 @@ test = {
           'hidden': True,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> parties.labels[1]
+          '# of times'
+          """,
+          'hidden': True,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

@@ -12,6 +12,14 @@ test = {
           'hidden': True,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> cand_per_state.labels[1]
+          'number of candidates'
+          """,
+          'hidden': True,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',
