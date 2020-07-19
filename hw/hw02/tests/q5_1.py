@@ -34,6 +34,23 @@ test = {
           'hidden': False,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> # There appears to be an issue with the amount of values you have.
+          >>> len(measurement_dates)
+          106
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> sum(measurement_dates)
+          212755.25
+          """,
+          'hidden': False,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

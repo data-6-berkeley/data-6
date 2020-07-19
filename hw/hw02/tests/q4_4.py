@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # It looks like you multiplied incorrectly or forgot to round.
-          >>> sum(usd_actual_prices) != 12645.0
+          >>> sum(usd_actual_prices) == 12645.0
           True
           """,
           'hidden': False,

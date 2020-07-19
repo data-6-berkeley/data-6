@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> round(biggest_increase, 3)
-          1.325
+          9.333
           """,
           'hidden': False,
           'locked': False
