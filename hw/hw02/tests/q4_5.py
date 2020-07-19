@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # It looks like there may be an issue with your rounding or subtraction.
-          >>> sum(price_difference) != 5442.0
+          >>> sum(usd_actual_prices) != 5442.0
           True
           """,
           'hidden': False,
@@ -15,12 +15,12 @@ test = {
         },
         {
           'code': r"""
-          >>> sum(price_difference)
-          5442.0
-          >>> len(price_difference)
+          >>> sum(usd_actual_prices)
+          12645.0
+          >>> len(usd_actual_prices)
           167
-          >>> price_difference.item(50)
-          36.0
+          >>> usd_actual_prices.item(50)
+          64.0
           """,
           'hidden': True,
           'locked': False
