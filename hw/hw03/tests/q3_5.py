@@ -9,7 +9,7 @@ test = {
           >>> votes_for_clinton == 65853581
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
       ],

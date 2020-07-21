@@ -9,7 +9,7 @@ test = {
           >>> hrc_votes.num_rows == 54
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -17,7 +17,7 @@ test = {
           >>> hrc_votes.column(0).item(0) == 2016
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -25,7 +25,7 @@ test = {
           >>> sum(hrc_votes.column("candidatevotes")) == 65853581
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
       ],

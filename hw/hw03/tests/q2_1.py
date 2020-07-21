@@ -9,7 +9,7 @@ test = {
           >>> sum(ca_presidential.column(1)) == 14060856
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -17,7 +17,7 @@ test = {
           >>> ca_presidential.num_rows == 5
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -25,7 +25,7 @@ test = {
           >>> ca_presidential.column(0).item(3) == "gloria la riva"
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
       ],
