@@ -9,7 +9,7 @@ test = {
           >>> parties.num_rows == 148
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -17,7 +17,15 @@ test = {
           >>> parties.labels[1]
           '# of times'
           """,
-          'hidden': True,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> sum(parties.column(1)) == 3740
+          True
+          """,
+          'hidden': False,
           'locked': False
         },
       ],

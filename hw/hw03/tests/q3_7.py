@@ -9,7 +9,7 @@ test = {
           >>> cand_per_state.num_rows == 51
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -17,7 +17,15 @@ test = {
           >>> cand_per_state.labels[1]
           'number of candidates'
           """,
-          'hidden': True,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> sum(cand_per_state.column(1)) == 3740
+          True
+          """,
+          'hidden': False,
           'locked': False
         },
       ],

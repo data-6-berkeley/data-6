@@ -9,7 +9,7 @@ test = {
           >>> sum(ca_candidates.column(1)) == 13716098
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
         {
@@ -17,7 +17,7 @@ test = {
           >>> ca_candidates.column(0).item(2) == "gary johnson"
           True
           """,
-          'hidden': True,
+          'hidden': False,
           'locked': False
         },
       ],

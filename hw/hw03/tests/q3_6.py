@@ -12,6 +12,14 @@ test = {
           'hidden': False,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> np.round(sum(prop_votes_rounded), 2) == 22.74
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',
