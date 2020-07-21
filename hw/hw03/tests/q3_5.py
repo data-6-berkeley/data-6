@@ -6,6 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
+          >>> import numpy as np
           >>> type(votes_for_clinton) == numpy.int64
           True
           """,
