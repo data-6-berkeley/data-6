@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> june_states
-          array(['New York', 'New Jersey', 'Illinois', 'California', 'Massachusetts'], dtype='<U24')
+          array(['New York', 'New Jersey', 'Illinois', 'California', 'Massachusetts'], dtype="'<U24'")
           """,
           'hidden': False,
           'locked': False
