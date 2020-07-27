@@ -14,8 +14,16 @@ test = {
         },
         {
           'code': r"""
-          >>> june_states
-          array(['New York', 'New Jersey', 'Illinois', 'California', 'Massachusetts'], dtype="'<U24'")
+          >>> june_states.item(4) == "Massachusetts"
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> june_states.item(0) == "New York"
+          True
           """,
           'hidden': False,
           'locked': False
