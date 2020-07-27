@@ -14,7 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> port_tox_release == 325.564
+          >>> import numpy as np
+          >>> np.round(port_tox_release, 2) == 325.56
           True
           """,
           'hidden': True,
