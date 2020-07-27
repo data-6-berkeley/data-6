@@ -43,7 +43,7 @@ test = {
         {
           'code': r"""
           >>> # Compute the annual exponential growth rate
-          >>> np.allclose(np.round(sum(b_five_growth.column(2)), 5), 0.18323)
+          >>> np.allclose(np.round(sum(b_five_growth.column(2)), 5), 0.1797)
           True
           """,
           'hidden': True,
