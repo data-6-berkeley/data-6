@@ -52,11 +52,11 @@ test = {
         {
           'code': r"""
           >>> # Table does not have expected values
-          >>> round(b_five_growth.column(2).item(0), 8) == 0.01837042
+          >>> round(b_five_growth.column(2).item(0), 8) == 0.0175386
           True
-          >>> round(b_five_growth.column(2).item(3), 8) == 0.02644713
+          >>> round(b_five_growth.column(2).item(3), 8) == 0.0259577
           True
-          >>> round(b_five_growth.column(2).item(8), 8) == 0.01207657
+          >>> round(b_five_growth.column(2).item(8), 8) == 0.0114972
           True
           """,
           'hidden': True,
