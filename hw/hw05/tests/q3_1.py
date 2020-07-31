@@ -12,6 +12,14 @@ test = {
           'hidden': True,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> population.column(0).item(99001) == 'Neither support nor oppose'
+          True
+          """,
+          'hidden': True,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

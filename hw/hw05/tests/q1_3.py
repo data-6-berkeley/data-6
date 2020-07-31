@@ -12,6 +12,14 @@ test = {
           'hidden': False,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> requests.column(1).item(2) == 1265
+          True
+          """,
+          'hidden': True,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

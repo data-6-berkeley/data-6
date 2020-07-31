@@ -6,7 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> observed_test_statistic == 1.9534680809960294
+          >>> import numpy as np
+          >>> np.round(observed_test_statistic, 2) == 1.95
           True
           """,
           'hidden': True,
