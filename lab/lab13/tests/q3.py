@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> sample_counts.num_columns == 2
+          >>> sample_prob_tbl.num_columns == 2
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> sample_counts.num_rows == 5
+          >>> sample_prob_tbl.num_rows == 5 or sample_prob_tbl.num_rows == 4
           True
           """,
           'hidden': False,
@@ -23,7 +23,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.round(sum(sample_counts.column(1))) == 1.0
+          >>> np.round(sum(sample_prob_tbl.column(1))) == 1.0
           True
           """,
           'hidden': False,
