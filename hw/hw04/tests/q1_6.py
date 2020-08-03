@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.round(sum(ces_with_distances.column("distance_from_oak"))) == 23412011.0
+          >>> np.round(sum(ces_with_distances.column("distance_from_oak"))) == 23412008.0
           True
           """,
           'hidden': False,
