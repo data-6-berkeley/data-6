@@ -22,7 +22,8 @@ test = {
         },
         {
           'code': r"""
-          >>> sum(sample_counts.column(1)) == 1.0
+          >>> import numpy as np
+          >>> np.round(sum(sample_counts.column(1))) == 1.0
           True
           """,
           'hidden': False,
