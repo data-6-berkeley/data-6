@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> round(float(compute_statistics(full_data)[1]), 2) == 44468.0
+          >>> round(float(compute_statistics(full_data)[1]), 0) == 44468.0
           True
           """,
           'hidden': False,
