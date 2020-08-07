@@ -6,8 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> observed == test_statistic_function(farming)
-          0.04928255007704163
+          >>> import numpy as np
+          >>> np.round(observed, 2) == np.round(test_statistic_function(farming), 2)
+          True
           """,
           'hidden': False,
           'locked': False
